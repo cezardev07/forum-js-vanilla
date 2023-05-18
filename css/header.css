@@ -1,0 +1,30 @@
+header{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    background: rgb(223, 223, 223);
+    background: #24292f;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    z-index: 1111111;
+}
+header img{
+    width: 55px;
+    height: 55px;
+}
+header button{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background: #0c894b;
+    border: none;
+    cursor: pointer;
+}
+header button:active{
+    scale: .9;
+}

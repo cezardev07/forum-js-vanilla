@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>*{margin: 0;padding: 0;box-sizing: border-box;font-family: Georgia, 'Times New Roman', Times, serif;border: none;font-family: 'Roboto', sans-serif;}body{position: relative;background: rgb(223, 223, 223);}
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/post.css">
+    <link rel="shortcut icon" href="./assets/funEmoji03.svg" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./js/app.js" type="module" defer></script>
+    <meta name="description" content="forum web estatic">
+    <!-- create by cezar pereira -->
+</head>
+<body>
+    <header>
+        <div class="create-post">
+            <a href="#">
+                <button>Criar post</button>
+            </a>
+        </div>
+        <div class="perfil">
+            <a href="https://github.com/cezardev07/forum-js-vanilla" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/funEmoji01.jpeg" alt="">
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="create-post-feed">
+            <input type="text" placeholder="Nome" maxlength="5">
+            <textarea name="create post" placeholder="faça um comentario"></textarea>
+            <button>publica</button>
+        </section>
+        <section class="posts">
+            <!-- posts -->
+        </section>
+    </main>
+    <footer>
+        <section>
+            <a href="#" class="arrow-top">
+                <ion-icon name="arrow-up-outline"></ion-icon>
+            </a>
+        </section>
+        <section>
+            <a href="https://github.com/cezardev07/forum-js-vanilla" target="_blank" rel="noopener noreferrer" class="link-github">
+                GITHUB <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </section>
+    </footer>
+
+    <script type="module">
+        import { App } from "./js/app.js";
+        import { open } from "./js/create_post/open-commit-post/open.js";
+
+        App();
+        open();
+    </script>
+</body>
+</html>

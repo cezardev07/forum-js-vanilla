@@ -1,0 +1,76 @@
+article{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: #fff;
+}
+article .usuario-post{
+    text-align: center;
+}
+article .usuario-post img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+article .post{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    max-height: 300px;
+    overflow-y: auto;
+    width: 650px;
+}
+.center{
+    justify-content: center;
+}
+.create-post-feed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    gap: 10px;
+}
+.create-post-feed textarea{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 16px;
+    resize: none;
+    font-size: 20px;
+}
+.create-post-feed textarea::placeholder{
+    text-align: center;
+}
+.create-post-feed button{
+    cursor: pointer;
+    padding: 10px 20px;
+    height: 100%;
+    font-size: 18px;
+    border: none;
+    background: #fff;
+    text-transform: capitalize;
+}
+.create-post-feed button:hover{
+    background: #efefef;
+}
+.create-post-feed button:active{
+    background: #b6b5b5;
+}
+main .posts{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #111111;
+}
+h4{
+    font-weight: 400;
+}
+.none{
+    display: none;
+}
