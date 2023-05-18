@@ -3,16 +3,13 @@
 <ul>
     <li>
         <p>
-            Consumindo a api <strong>pokeApi</strong>, e criando um sistema de filtragem e listagem de pokemons com solicitação http para a api 
+            forum web, javascript vanilla
         </p>
     </li>
 </ul>
 
-<h1 align="center"> Sistema de busca linear com requisição http para a api poke api</h1>
+<h1 align="center"> projeto criado com foco em estudar modulos javascript</h1>
 
-<p align="center">
- projeto criado com foco em estudar requisição assincronas http com javascript<br/>
-</p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
